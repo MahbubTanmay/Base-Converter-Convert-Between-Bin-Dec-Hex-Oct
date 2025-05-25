@@ -17,20 +17,20 @@ cout <<"To Binary Is: " <<bitset<8>(number)<<endl;   // binary = bitset<8>(int_v
 cout <<"To Decimal Is: " <<bitset<8>(number).to_ulong()<<endl; //decimal = bitset<8>(int_variable_name).to_ulong()
 cout<<"The HexaDecimal Is: "<<hex << number <<endl;
 cout <<"To Octal Is: " <<oct<<number<<endl;
+ 
 
-
+//*********** Another Way************
 //we can directly convert string to int with different base like this
 //int_variable = stoi(string_variable , nullptr, base) ; 
-//int_variable = stoi(string_variable , nullptr, 2)  -- binary
-//int_variable = stoi(string_variable , nullptr, 16)  -- Hex
- //int_variable = stoi(string_variable , nullptr, 8)  -- oct
-    //int_variable = stoi(string_variable)  -- Decimal
+ //int_variable = stoi(string_variable , nullptr, 2) ; -- binary
+ //int_variable = stoi(string_variable , nullptr, 16) ; -- Hex
+//int_variable = stoi(string_variable , nullptr, 8) ; -- oct
+ //int_variable = stoi(string_variable)  ; -- Decimal
 
 
-
-    //so convert int to string using
-//string_variable = to_string();
-
+//so convert int to string using
+//string_variable = to_string(int_variable);
+//then change base using above technique
     
     return 0;
 }
