@@ -18,5 +18,13 @@ cout <<"To Decimal Is: " <<bitset<8>(number).to_ulong()<<endl; //decimal = bitse
 cout<<"The HexaDecimal Is: "<<hex << number <<endl;
 cout <<"To Octal Is: " <<oct<<number<<endl;
 
+
+//we can directly convert string to int with different base like this
+//int_variable = stoi(string_variable , nullptr, base)
+    
+//int_variable = stoi(string_variable , nullptr, base)  -- binary
+
+
+    
     return 0;
 }
