@@ -20,10 +20,16 @@ cout <<"To Octal Is: " <<oct<<number<<endl;
 
 
 //we can directly convert string to int with different base like this
-//int_variable = stoi(string_variable , nullptr, base)
-    
-//int_variable = stoi(string_variable , nullptr, base)  -- binary
+//int_variable = stoi(string_variable , nullptr, base) ; 
+//int_variable = stoi(string_variable , nullptr, 2)  -- binary
+//int_variable = stoi(string_variable , nullptr, 16)  -- Hex
+ //int_variable = stoi(string_variable , nullptr, 8)  -- oct
+    //int_variable = stoi(string_variable)  -- Decimal
 
+
+
+    //so convert int to string using
+//string_variable = to_string();
 
     
     return 0;
